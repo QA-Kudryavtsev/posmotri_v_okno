@@ -16,6 +16,9 @@ html {
   font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
   background-color: #1b1919;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 h1,
@@ -53,8 +56,6 @@ ol {
   align-self: flex-end;
   width: 100%;
   gap: 30px;
-  justify-content: center;
-  margin: 130px auto;
 }
 
 .content__list {
